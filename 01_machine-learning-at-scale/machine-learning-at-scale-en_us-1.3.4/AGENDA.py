@@ -1,0 +1,53 @@
+# Databricks notebook source
+# MAGIC %md
+# MAGIC
+# MAGIC <div style="text-align: center; line-height: 0; padding-top: 9px;">
+# MAGIC   <img
+# MAGIC     src="https://databricks.com/wp-content/uploads/2018/03/db-academy-rgb-1200px.png"
+# MAGIC     alt="Databricks Learning"
+# MAGIC   >
+# MAGIC </div>
+# MAGIC
+
+# COMMAND ----------
+
+# MAGIC %md
+# MAGIC
+# MAGIC
+# MAGIC
+# MAGIC ## Machine Learning at Scale
+# MAGIC
+# MAGIC In this course, you will gain theoretical and practical knowledge of Apache Spark’s architecture and its application to machine learning workloads within Databricks. You will learn when to use Spark for data preparation, model training, and deployment, while also gaining hands-on experience with Spark ML and pandas APIs on Spark. This course will introduce you to advanced concepts like hyperparameter tuning and scaling Optuna with Spark. This course will use features and concepts introduced in the associate course such as MLflow and Unity Catalog for comprehensive model packaging and governance. 
+# MAGIC
+# MAGIC ---
+# MAGIC
+# MAGIC ## Prerequisites
+# MAGIC The content was developed for participants with these skills/knowledge/abilities:  
+# MAGIC - Intermediate-level knowledge of traditional ML concepts, development, and utilizing Python for ML projects.
+# MAGIC - It is recommended that the user has intermediate-level experience with Spark concepts. 
+# MAGIC
+# MAGIC ---
+# MAGIC
+# MAGIC ## Course Agenda  
+# MAGIC The following modules are part of the **Machine Learning at Scale** course by **Databricks Academy**.
+# MAGIC
+# MAGIC | # | Module Name | Lesson Name |
+# MAGIC |---|-------------|-------------|
+# MAGIC | 1 | **[Machine Learning Development with Spark]($./M01 - Model Development with Spark)** | • [*Lecture:* Spark Architecture Overview]($./M01 - Model Development with Spark/01.1 Lecture - Spark Architecture Overview) <br> • [*Lecture:* Introduction to Spark ML for Model Development]($./M01 - Model Development with Spark/01.2 Lecture - Introduction to Spark ML for Model Development) <br> • [*Lecture:* Model Tracking and Packaging with MLflow]($./M01 - Model Development with Spark/01.3 Lecture - Model Tracking and Packaging with MLflow) <br> • [**Demo:** Model Development with Spark]($./M01 - Model Development with Spark/01.4 Demo - Model Development with Spark) <br> • [**Lab:** Model Development with Spark]($./M01 - Model Development with Spark/01.5 Lab - Model Development with Spark) |
+# MAGIC | 2 | **[Distributed Model Tuning on Databricks]($./M02 - Model Tuning with Optuna on Spark)** | • [*Lecture:* Overview of Hyperparameter Tuning]($./M02 - Model Tuning with Optuna on Spark/02.1 Lecture - Overview of Hyperparameter Tuning) <br> • [*Lecture:* Scalable HPO Frameworks on Databricks]($./M02 - Model Tuning with Optuna on Spark/02.2 Lecture - Scalable HPO Frameworks on Databricks) <br> • [**Demo:** Hyperparameter Tuning with SparkML]($./M02 - Model Tuning with Optuna on Spark/02.3 Demo - Hyperparameter Tuning with SparkML) <br> • [**Demo:** HPO with Ray Tune]($./M02 - Model Tuning with Optuna on Spark/02.4 Demo - HPO with Ray Tune) |
+# MAGIC | 3 | **[Deploying Machine Learning Models with Spark]($./M03 - Model Deployment with Spark)** | • [*Lecture:* Deployment with Spark]($./M03 - Model Deployment with Spark/03.1 Lecture - Deployment with Spark) <br> • [*Lecture:* Inference with Spark]($./M03 - Model Deployment with Spark/03.2 Lecture - Inference with Spark) <br> • [**Demo:** Model Deployment with Spark]($./M03 - Model Deployment with Spark/03.3 Demo - Model Deployment with Spark) <br> • [**Demo:** Optimization Strategies with Spark and Delta Lake]($./M03 - Model Deployment with Spark/03.4 Demo - Optimization Strategies with Spark and Delta Lake) <br> • [**Lab:** Model Deployment with Spark]($./M03 - Model Deployment with Spark/03.5 Lab - Model Deployment with Spark) |
+# MAGIC | 4 | **[Pandas on Spark]($./M04 - Pandas APIs)** | • [*Lecture:* Scaling with Pandas APIs]($./M04 - Pandas APIs/04.1 Lecture - Scaling with Pandas APIs) <br> • [*Lecture:* Pandas UDFs and Function APIs]($./M04 - Pandas APIs/04.2 Lecture - Pandas UDFs and Function APIs) <br> • [**Demo:** Pandas APIs]($./M04 - Pandas APIs/04.3 Demo - Pandas APIs) <br> • [**Lab:** Pandas APIs]($./M04 - Pandas APIs/04.4 Lab - Pandas APIs) |
+# MAGIC
+# MAGIC ---
+# MAGIC
+# MAGIC ## Requirements
+# MAGIC
+# MAGIC Please review the following requirements before starting the lesson:
+# MAGIC
+# MAGIC * Use Databricks Runtime version: **`17.3.x-cpu-ml-scala2.13`** for running all demo and lab notebooks.
+# MAGIC
+
+# COMMAND ----------
+
+# MAGIC %md
+# MAGIC &copy; 2026 Databricks, Inc. All rights reserved. Apache, Apache Spark, Spark, the Spark Logo, Apache Iceberg, Iceberg, and the Apache Iceberg logo are trademarks of the <a href="https://www.apache.org/" target="_blank">Apache Software Foundation</a>.<br/><br/><a href="https://databricks.com/privacy-policy" target="_blank">Privacy Policy</a> | <a href="https://databricks.com/terms-of-use" target="_blank">Terms of Use</a> | <a href="https://help.databricks.com/" target="_blank">Support</a>
